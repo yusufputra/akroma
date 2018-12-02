@@ -14,7 +14,7 @@ html {
 }
 .warp{
     word-wrap: break-word;
-    padding-top: 50%;
+    padding-top: 15%;
 }
 .warp-clean{
     word-wrap: break-word;
@@ -53,10 +53,14 @@ nav{
 }
 
 .gap-contact{
-    padding-top: 30rem!important;
+    position: relative;
+    /* padding-top: 30rem!important; */
+    top: 50%;
+    bottom: 10%;
+    left: 25%;
 }
 .mt-6, .my-6 {
-    margin-top: 4.rem!important;
+    margin-top: 4rem !important;
 }
 .mt-9{
     padding-top: 40%;
@@ -91,7 +95,9 @@ nav{
 .text-cont{
     color: #ffffff;
     font-family: 'PlayfairDisplay';
+    font-size: 20px;
 }
+
 .text-white{
     color: white;
 }
@@ -167,4 +173,16 @@ nav{
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
+}
+
+.socmed {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    display: flex;
+}
+
+.socmed .socmed-child {
+    padding: 20px;
+    color: #fff;
 }
