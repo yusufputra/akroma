@@ -182,3 +182,17 @@ nav{
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }
+@media (max-width: 450px){
+    .gap-contact{
+        padding-top: 0rem!important;
+    }
+
+    .text-profile{
+        margin-top: 1%;
+        color: #000000;
+        font-family: 'ProximaNova';
+        text-align: left;
+        margin-left: 2%;
+    }
+    
+}
