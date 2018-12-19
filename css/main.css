@@ -194,5 +194,12 @@ nav{
         text-align: left;
         margin-left: 2%;
     }
+
+    .textleft{
+        text-align: unset;
+    }
+    .ml-6, .ml-6 {
+        margin-left: 0rem!important;
+    }
     
 }
